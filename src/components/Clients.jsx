@@ -3,7 +3,7 @@ import styles from "../styles";
 
 const Clients = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingX} my4`}>
+    <section className={`${styles.flexCenter} my4`}>
       <div className={`${styles.flexCenter} flex-wrap w-full`}>
         {clients.map((client) => (
           <div
